@@ -43,7 +43,7 @@ springdoc:
     operationsSorter: method
     docExpansion: none
     filter: true
-  packages-to-scan: com.catalis.core.banking.cards.web.controllers
+  packages-to-scan: com.catalis.core.banking.cards.authorization.web.controllers
   paths-to-match: /api/**
 
 management:
