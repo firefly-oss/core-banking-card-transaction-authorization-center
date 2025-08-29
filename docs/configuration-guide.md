@@ -252,7 +252,7 @@ Logging is configured in the `logback-spring.xml` file:
         <appender-ref ref="JSON_CONSOLE"/>
     </root>
 
-    <logger name="com.catalis.core.banking.cards.authorization" level="DEBUG"/>
+    <logger name="com.firefly.core.banking.cards.authorization" level="DEBUG"/>
     <logger name="org.springframework" level="INFO"/>
     <logger name="io.r2dbc" level="INFO"/>
 </configuration>
@@ -331,7 +331,7 @@ spring:
 
 logging:
   level:
-    com.catalis.core.banking.cards.authorization: DEBUG
+    com.firefly.core.banking.cards.authorization: DEBUG
     org.springframework: INFO
     io.r2dbc: DEBUG
 
@@ -355,7 +355,7 @@ spring:
 
 logging:
   level:
-    com.catalis.core.banking.cards.authorization: DEBUG
+    com.firefly.core.banking.cards.authorization: DEBUG
     org.springframework: INFO
     io.r2dbc: INFO
 
@@ -385,7 +385,7 @@ spring:
 
 logging:
   level:
-    com.catalis.core.banking.cards.authorization: INFO
+    com.firefly.core.banking.cards.authorization: INFO
     org.springframework: WARN
     io.r2dbc: WARN
 
